@@ -1,0 +1,24 @@
+{
+  "name": "flappy-game",
+  "version": "1.0.0",
+  "description": "A flappy bird clone implementation in a Wordpress plugin based in the project of ellisonleao",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-connect": "^4.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  },
+  "scripts": {
+    "build": "grunt",
+    "dev": "grunt connect"
+  },
+  "keywords": [
+    "flappy-game",
+    "plugin",
+    "wordpress"
+  ],
+  "author": "Raul Gonzalez",
+  "license": "GPL"
+}
